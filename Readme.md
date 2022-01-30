@@ -1,8 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ильмира Латыпова](https://up.htmlacademy.ru/htmlcss/33/user/2018709).
-* Наставник: [Максим
-Волков](https://htmlacademy.ru/profile/id1158117)
+* Наставник: [Максим Волков](https://htmlacademy.ru/profile/id1158117).
 
 ---
 
