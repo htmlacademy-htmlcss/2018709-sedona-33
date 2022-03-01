@@ -98,15 +98,24 @@ body {
 .main-index {
   color: #000000;
   background-color: #F2F2F2;
+  background-size: 1200px 57px, 1200px 485px;
+  background-origin: content-box;
+  margin: 0;
+} 
+
+
+.background {
   background-image: url("../images/logo/divider.svg"), url("../images/background/index-background.jpg");
   background-repeat: no-repeat;
-  background-origin: content-box;
-  background-size: 1200px 57px, 1200px 485px;
-  background-position:  top;
+  background-position: bottom;
 }
 
 
-
+.logo {
+  display: block;
+  width: 458px;
+  padding: 51px 371px 82px 371px;
+}
 
 
 .main-index h1 {
@@ -114,18 +123,10 @@ body {
   width: 458px;
   height: 352px;
 }
-
-
 .divider {
   display: block;
   margin: 0 auto;
   width: 1200px;
-}
-
-.logo {
-  display: block;
-  width: 458px;
-  margin: 51px 371px 82px 371px;
 }
 
 .paragraph-header {
@@ -140,7 +141,7 @@ body {
   color: #000000;
   background-color: #FFFFFF;
   white-space: pre;
-  margin-top: 71px;
+  margin: 0;
 }
 
 .paragraph-subtitle {
@@ -160,6 +161,8 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages__item { 
@@ -231,6 +234,7 @@ body {
 
 .interested__title {
   padding-top: 91px;
+  margin: 0;
 }
  
 
@@ -247,6 +251,10 @@ body {
   margin: 0;
   width: 1200px;
   height: 411px;
+}
+
+.distribution__title {
+  margin: 0;
   padding-top: 94px;
 }
 
