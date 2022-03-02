@@ -176,9 +176,10 @@ body {
 }
 
 .advantages__item--white {
+  display: flex;
   color: #FFFFFF;
   background-color: #83B3D3; 
-  width: 400px;
+  width: 1200px;
   height: 384px;
   text-align: center;
 }
