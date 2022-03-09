@@ -177,6 +177,7 @@ body {
 
 .advantages__item { 
   display: flex;
+  flex-direction: column;
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px; 
@@ -188,6 +189,7 @@ body {
 }
 
 .advantages__item--white {
+  flex-direction: row;
   color: #FFFFFF;
   background-color: #83B3D3; 
 }
@@ -202,10 +204,6 @@ body {
 
 .advantages__item--sky2 {
   background-color: rgba(131, 179, 211, 0.2);
-}
-
-.advantages__item--line {
-  flex-direction: column;
 }
 
 .advantages__title {
