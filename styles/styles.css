@@ -105,7 +105,6 @@ body {
   background-color: #FFFFFF;
   position: centre;
   width: 1200px;
-  height: 70px;
   margin: 0 auto;
 }
 
@@ -349,6 +348,7 @@ body {
   margin: 0;
   padding-top: 23px;
   font-size: 28px;
+  text-transform: uppercase;
 }
 
 
@@ -654,8 +654,14 @@ body {
   width: 361px;
 }
 
+.footer-phone__link {
+  text-decoration: none;
+  color: #000000;
+}
+
 .footer-phone:hover {
   color: #756257;
+  text-decoration: none;
 }
 
 .footer-phone:focus {
@@ -663,6 +669,7 @@ body {
   outline: none;
   border-radius: 10px;
   color: #756257;
+  text-decoration: none;
 }
 
 .footer-phone:active {
@@ -670,6 +677,7 @@ body {
   outline: none;
   color: #756257;
   opacity: 0.3;
+  text-decoration: none;
 }
 
 .footer-logo__link {
