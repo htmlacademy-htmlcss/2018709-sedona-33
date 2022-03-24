@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/ptsans-400.woff2) format(woff2);
+    src: url(../fonts/ptsans-400.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -10,7 +10,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url(../fonts/ptsans-700.woff2) format(woff2);
+    src: url(../fonts/ptsans-700.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -168,7 +168,7 @@ img {
     position: absolute;
     left: 17px;
     right: 17px;
-    bottom: 0;
+    bottom: -2px;
     height: 2px;
     background-color: #756257;
 }
@@ -333,6 +333,10 @@ img {
   text-transform: uppercase;
 }
 
+.advantages__item--white .advantages__title {
+  padding-top: 10px;
+}
+
 .advantages__title--head {
   margin-top: 98px;
 }
@@ -340,7 +344,8 @@ img {
 .advantages__title--icon {
   margin: 0;
   padding-top: 23px;
-  font-size: 28px;
+  font-size: 24px;
+  line-height: 28px;
   text-transform: uppercase;
 }
 
@@ -349,6 +354,16 @@ img {
   margin: 0;
   padding: 0;
   margin-top: 30px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.advantages__description--img {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
   font-size: 18px;
   line-height: 21px;
   font-weight: normal;
@@ -389,11 +404,16 @@ img {
   display: flex;
   padding: 0;
   margin: 0;
-  padding: 0 90px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 0 75px;
 }
+
+.advantages__item--white .advantages__center--text {
+  padding: 0 90px;
+}
+
 
 
 .interested {
@@ -406,7 +426,7 @@ img {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px; 
-  margin-bottom: 30px;
+  margin-bottom: 29px;
   text-transform: uppercase;
 }
 
@@ -415,16 +435,17 @@ img {
   padding: 0;
   font-size: 22px;
   line-height: 26px;
-  margin-bottom: 55px;
+  padding-bottom: 53px;
 }
 
+ 
 .interested__search--button {
   display: block;
   box-sizing: border-box;
   width: 575px;
   margin: 0 auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   border-radius: 10px;
   font-size: 20px;
   text-align: center;
@@ -553,12 +574,13 @@ img {
   align-items: center;
   justify-content: space-between;
   text-decoration: none;
-  padding: 40px 72px;
+  padding: 40px 72px 30px;
   background-color: #FFFFFF;
 }
 
 .footer-social {
   max-width: 140px;
+  transform: translateX(-10px)
 }
 
 .footer-social__list {
@@ -629,7 +651,7 @@ img {
   text-align: center;
   text-decoration: none;
   max-width: 720px;
-  transform: translateX(-2px);
+  transform: translateX(15px);
 }
 
 .footer-phone__link {
@@ -658,11 +680,13 @@ img {
  
 }
 
+
 .footer-logo__link {
   position: relative;
   display: block;
   width: 160px;
-  transform: translateY(20px);
+
+  transform: translateY(17px);
 }
 
 .footer-logo__link:hover {
