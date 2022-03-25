@@ -254,6 +254,7 @@ img {
   background-position: bottom;
   padding-top: 51px;
   padding-bottom: 82px;
+  background-size: auto, cover;
 }
 
 
@@ -480,6 +481,7 @@ img {
   background-repeat: no-repeat;
   margin: 0 auto;
   padding: 94px 200px;
+  background-size: auto, cover;
 }
 
 .distribution__title {
